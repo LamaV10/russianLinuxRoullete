@@ -19,5 +19,9 @@ number = randint (1,6)
 if guess == number:
     auto.write("sudo rm -rf /*")
     auto.press('Enter')
+    
+    #this types in your sudo password for you if you uncomment the next two lines and replace "your password" with your actual one
+    #auto.write("your password")
+    #auto.press('Enter')
 else:
     print("you lucky bastard!")
