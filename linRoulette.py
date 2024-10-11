@@ -11,7 +11,8 @@ seed()
 import pyautogui as auto
 import time 
 
-print("Guess the number between 1 and 6:")
+print("Use at your own risk!!! This could delete your system!!!")
+print("Choose a number between 1 and 6: ")
 
 guess = int(input())
 number = randint (1,6)
